@@ -6,6 +6,6 @@ const BASE_URL =
     : "https://chattrixbackend.onrender.com/api";
 
 export const axiosInstance = axios.create({
-  baseURL: BASE_URL,
+  baseURL: "https://chattrixbackend.onrender.com/api",
   withCredentials: true,
 });
